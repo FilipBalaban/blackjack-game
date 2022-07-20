@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts -->
+        <!-- Great Vibes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+        <!-- Exo -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,800;1,800&display=swap" rel="stylesheet">  
+
+</head>
+
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="white-space"></div>
+        <h1 id="title">Blackjack</h1>
+        <h2 class="subtitle" id="message-el">Press Start Game</h2>
+        <p class="info-p" id="sum-el">Sum: </p>
+        <p class="info-p" id="cards-el">Cards: </p>
+    </header>
+
+    <!-- Footer -->
+    <footer>
+        <div class="button-container">
+            <button onclick="startGame()">Start Game</button>
+            <button onclick="newCard()">New Card</button>
+        </div>
+        <p class="player-p" id="player-el">Player: $</p>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="index.js"></script>
+</body>
+</html>
