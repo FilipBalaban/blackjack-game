@@ -47,9 +47,6 @@ function player() {
         playerCoins = playerCoins - 50 
         return playerCoins
     }
-
-
-
 }
 
 // Start Game
@@ -66,7 +63,6 @@ function startGame() {
         hasClickedNewCard = false
         renderGame()
     }
-    
 }
 
 // Render Game
@@ -134,7 +130,5 @@ function newCard() {
         hasClickedNewCard = true
         renderGame()
     }
-
-    
 }
 
